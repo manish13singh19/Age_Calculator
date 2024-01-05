@@ -7,7 +7,7 @@ const resultEl = document.getElementById("result")
 function calculateAge(){
     const birthdayValue = birthdayEl.value;
     if(birthdayValue === ""){
-        alert("CHUTIYA hai kya...DOB to dal")
+        alert("Please enter your DOB")
     }
     else{
         const age = getAge(birthdayValue);
